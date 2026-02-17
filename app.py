@@ -6,6 +6,9 @@ import pandas as pd
 import plotly.express as px
 from tracker import CentroidTracker
 from heatmap import generate_heatmap
+import sys
+st.write("Python Version:", sys.version)
+
 
 # ----------------------------------------
 # Streamlit Page Setup
